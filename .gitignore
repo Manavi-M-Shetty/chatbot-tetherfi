@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Local data & indexes (should not go to GitHub)
+db/
+chat_logs/
+data/raw_docs/
+data/pdfs/
+data/internal_docs/
+
+# If your real product images are sensitive
+data/images/
+!data/images/README.md  # keep only a placeholder
+
+# OS files
+.DS_Store
+Thumbs.db
